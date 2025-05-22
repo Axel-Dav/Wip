@@ -1,0 +1,259 @@
+{
+    "nodos": [
+        {
+            "nombre": "Casa 1",
+            "posicion": [
+                0,
+                0
+            ]
+        },
+        {
+            "nombre": "Casa 2",
+            "posicion": [
+                1,
+                0
+            ]
+        },
+        {
+            "nombre": "Oxxo 1",
+            "posicion": [
+                2,
+                1
+            ]
+        },
+        {
+            "nombre": "Hospital 1",
+            "posicion": [
+                3,
+                2
+            ]
+        },
+        {
+            "nombre": "Farmacia",
+            "posicion": [
+                0,
+                2
+            ]
+        },
+        {
+            "nombre": "Escuela",
+            "posicion": [
+                1,
+                2
+            ]
+        },
+        {
+            "nombre": "Gimnasio",
+            "posicion": [
+                2,
+                2
+            ]
+        },
+        {
+            "nombre": "Museo",
+            "posicion": [
+                3,
+                3
+            ]
+        },
+        {
+            "nombre": "Cafe 1",
+            "posicion": [
+                0,
+                1
+            ]
+        },
+        {
+            "nombre": "Cafe 2",
+            "posicion": [
+                1,
+                3
+            ]
+        },
+        {
+            "nombre": "Casa 3",
+            "posicion": [
+                2,
+                3
+            ]
+        },
+        {
+            "nombre": "Casa 4",
+            "posicion": [
+                3,
+                4
+            ]
+        },
+        {
+            "nombre": "Oxxo 2",
+            "posicion": [
+                4,
+                3
+            ]
+        },
+        {
+            "nombre": "Hospital 2",
+            "posicion": [
+                5,
+                2
+            ]
+        },
+        {
+            "nombre": "Parque",
+            "posicion": [
+                6,
+                1
+            ]
+        },
+        {
+            "nombre": "Casa 5",
+            "posicion": [
+                5,
+                0
+            ]
+        },
+        {
+            "nombre": "Plaza 1",
+            "posicion": [
+                2,
+                0
+            ]
+        },
+        {
+            "nombre": "Plaza 2",
+            "posicion": [
+                3,
+                0
+            ]
+        },
+        {
+            "nombre": "Casa 6",
+            "posicion": [
+                4,
+                0
+            ]
+        }
+    ],
+    "calles": [
+        {
+            "origen": "Farmacia",
+            "destino": "Cafe 1",
+            "peso": 2,
+            "doble_sentido": false
+        },
+        {
+            "origen": "Cafe 1",
+            "destino": "Plaza 1",
+            "peso": 3,
+            "doble_sentido": false
+        },
+        {
+            "origen": "Plaza 1",
+            "destino": "Casa 1",
+            "peso": 2,
+            "doble_sentido": false
+        },
+        {
+            "origen": "Casa 1",
+            "destino": "Casa 2",
+            "peso": 4,
+            "doble_sentido": true
+        },
+        {
+            "origen": "Casa 2",
+            "destino": "Oxxo 1",
+            "peso": 1,
+            "doble_sentido": false
+        },
+        {
+            "origen": "Oxxo 1",
+            "destino": "Hospital 1",
+            "peso": 5,
+            "doble_sentido": false
+        },
+        {
+            "origen": "Farmacia",
+            "destino": "Escuela",
+            "peso": 3,
+            "doble_sentido": true
+        },
+        {
+            "origen": "Escuela",
+            "destino": "Gimnasio",
+            "peso": 4,
+            "doble_sentido": false
+        },
+        {
+            "origen": "Gimnasio",
+            "destino": "Museo",
+            "peso": 6,
+            "doble_sentido": false
+        },
+        {
+            "origen": "Museo",
+            "destino": "Cafe 2",
+            "peso": 2,
+            "doble_sentido": false
+        },
+        {
+            "origen": "Cafe 2",
+            "destino": "Casa 3",
+            "peso": 3,
+            "doble_sentido": false
+        },
+        {
+            "origen": "Casa 3",
+            "destino": "Casa 4",
+            "peso": 2,
+            "doble_sentido": true
+        },
+        {
+            "origen": "Casa 4",
+            "destino": "Oxxo 2",
+            "peso": 2,
+            "doble_sentido": false
+        },
+        {
+            "origen": "Oxxo 2",
+            "destino": "Hospital 2",
+            "peso": 1,
+            "doble_sentido": false
+        },
+        {
+            "origen": "Hospital 2",
+            "destino": "Parque",
+            "peso": 3,
+            "doble_sentido": false
+        },
+        {
+            "origen": "Parque",
+            "destino": "Casa 5",
+            "peso": 2,
+            "doble_sentido": false
+        },
+        {
+            "origen": "Casa 5",
+            "destino": "Plaza 2",
+            "peso": 3,
+            "doble_sentido": false
+        },
+        {
+            "origen": "Plaza 2",
+            "destino": "Casa 6",
+            "peso": 1,
+            "doble_sentido": false
+        },
+        {
+            "origen": "Casa 6",
+            "destino": "Escuela",
+            "peso": 4,
+            "doble_sentido": true
+        },
+        {
+            "origen": "Plaza 1",
+            "destino": "Parque",
+            "peso": 3,
+            "doble_sentido": false
+        }
+    ]
+}
