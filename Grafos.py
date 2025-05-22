@@ -1,8 +1,20 @@
+# ==============================================================================
+#                                  GRAFOS
+# ==============================================================================
+# Desarrollado por: Monroy Pastrana Leonardo, Rodríguez Mercado Axel David
+# Proyecto: Navegación GPS
+# Descripción: 
+# ==============================================================================
+# ==============================================================================
+#                                 LIBRERIAS
+# ==============================================================================
 import tkinter as tk
 from tkinter import ttk, messagebox
 import networkx as nx
 import matplotlib.pyplot as plt
-
+# ==============================================================================
+#                              CLASES Y FUNCIONES
+# ==============================================================================
 class Nodo:
     def __init__(self, dato):
         self.dato = dato
@@ -129,8 +141,9 @@ class InterfazGrafo:
             self.grafo.mostrar()
         else:
             messagebox.showwarning("Advertencia", "Primero debe crear el grafo")
-
-
+# ==============================================================================
+#                               BLOQUE PRINCIPAL
+# ==============================================================================
 if __name__ == "__main__":
     inicio = tk.Tk()
     app = InterfazGrafo(inicio)
