@@ -1,9 +1,21 @@
+# ==============================================================================
+#                             Navegacion por GPS
+# ==============================================================================
+# Desarrollado por: Monroy Pastrana Leonardo, Rodríguez Mercado Axel David
+# Proyecto: Navegación GPS
+# Descripción: 
+# ==============================================================================
+# ==============================================================================
+#                                 LIBRERIAS
+# ==============================================================================
 import tkinter as tk
 from tkinter import ttk, messagebox
 import networkx as nx
 import matplotlib.pyplot as plt
 import random
-
+# ==============================================================================
+#                              CLASES Y FUNCIONES
+# ==============================================================================
 class Nodo:
     def __init__(self, dato):
         self.dato = dato
@@ -122,13 +134,10 @@ class InterfazGPS:
 
     def verMapa(self):
         self.grafo.mostrar()
-
-# ----------bloque principal----------
+# ==============================================================================
+#                               BLOQUE PRINCIPAL
+# ==============================================================================
 if __name__ == '__main__':
     ventana = tk.Tk()
     sistema = InterfazGPS(ventana)
     ventana.mainloop()
-# ----------Documentación y comentarios----------
-'''
-
-'''
